@@ -1,15 +1,15 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-issueTrackerURL="https://github.com/towersea/towersea/issues"
+issueTrackerURL="https://github.com/sjh20016/mc-towersea/issues"
 
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-updateJSONURL="https://github.com/towersea/towersea/update.json"
-displayURL="https://github.com/towersea/towersea"
-logoFile="logo.png"
+updateJSONURL="https://github.com/sjh20016/mc-towersea/update.json"
+displayURL="https://github.com/sjh20016/mc-towersea"
+#logoFile="logo.png"
 credits="TowerSea Team"
 authors="${mod_authors}"
 description='''${mod_description}'''

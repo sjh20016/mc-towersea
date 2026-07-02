@@ -18,7 +18,12 @@ public class TowerSeaDimensions {
     public static final ResourceKey<DimensionType> WAREHOUSE_TYPE = ResourceKey.create(
             Registries.DIMENSION_TYPE, new ResourceLocation(TowerSeaMod.MOD_ID, "warehouse"));
 
+    /**
+     * No-op: Dimension ResourceKeys are static final constants created at class load.
+     * Kept for explicit initialization ordering from TowerSeaMod constructor.
+     * Actual dimension registration is data-driven via JSON in data/towersea/dimension/.
+     */
     public static void register() {
-        TowerSeaMod.LOGGER.info("[TowerSea] Dimension keys registered.");
+        TowerSeaMod.LOGGER.info("[TowerSea] Dimension keys initialized (data-driven via JSON).");
     }
 }

@@ -47,7 +47,9 @@ minecraft {
     }
 }
 
-sourceSets.main.resources { srcDir 'src/generated/resources' }
+// Datagen output directory — currently unused (data-pack-first architecture hand-writes all JSON).
+// Uncomment when migrating to Java-based data generation.
+//sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     mavenCentral()
