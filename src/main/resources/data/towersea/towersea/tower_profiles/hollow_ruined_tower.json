@@ -1,0 +1,20 @@
+{
+  "id": "towersea:hollow_ruined_tower",
+  "weight": 35,
+  "min_y": 20,
+  "max_y": 260,
+  "min_radius": 14,
+  "max_radius": 40,
+  "min_height": 50,
+  "max_height": 180,
+  "hollow_chance": 0.65,
+  "broken_chance": 0.45,
+  "cave_chance": 0.5,
+  "top_shape": "jagged",
+  "base_block_tag": "towersea:tower_stone",
+  "surface_block_tag": "towersea:ruined_surface",
+  "allowed_height_bands": [
+    "towersea:mid_tower_sea",
+    "towersea:upper_ruins"
+  ]
+}

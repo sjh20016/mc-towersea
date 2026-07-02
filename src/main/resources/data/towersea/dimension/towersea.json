@@ -1,0 +1,43 @@
+{
+  "type": "towersea:towersea",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "towersea:towersea_noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "towersea:multi_noise",
+      "biomes": [
+        { "biome": "towersea:amethyst_rime_belfries", "parameters": { "temperature": [-1.0, -0.62], "humidity": [0.25, 1.0], "continentalness": [-1.0, -0.58], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.26 },
+        { "biome": "towersea:verdant_cascade_borough", "parameters": { "temperature": [0.48, 1.0], "humidity": [0.7, 1.0], "continentalness": [-0.05, 0.55], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.30 },
+        { "biome": "towersea:gloamcap_towergrove", "parameters": { "temperature": [0.25, 0.85], "humidity": [0.55, 1.0], "continentalness": [0.2, 0.75], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.26 },
+        { "biome": "towersea:stormwing_watch", "parameters": { "temperature": [-0.15, 0.55], "humidity": [-0.65, 0.2], "continentalness": [-0.7, -0.15], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.20 },
+        { "biome": "towersea:cloudstep_goatlands", "parameters": { "temperature": [-0.1, 0.65], "humidity": [-0.1, 0.6], "continentalness": [-0.65, -0.05], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.26 },
+        { "biome": "towersea:chainlight_citadel", "parameters": { "temperature": [0.15, 0.75], "humidity": [-0.15, 0.65], "continentalness": [-0.35, 0.35], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.28 },
+        { "biome": "towersea:powder_snow_sink", "parameters": { "temperature": [-1.0, -0.65], "humidity": [0.65, 1.0], "continentalness": [-1.0, -0.72], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.20 },
+        { "biome": "towersea:chorus_void_garden", "parameters": { "temperature": [-0.1, 0.65], "humidity": [-0.35, 0.35], "continentalness": [-0.72, -0.18], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.16 },
+        { "biome": "towersea:mycelium_shelf_isles", "parameters": { "temperature": [0.45, 1.0], "humidity": [0.45, 1.0], "continentalness": [-0.28, 0.28], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.18 },
+        { "biome": "towersea:inverted_dripstone_vault", "parameters": { "temperature": [0.15, 0.75], "humidity": [0.25, 0.85], "continentalness": [0.12, 0.62], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.16 },
+        { "biome": "towersea:crimson_thermal_well", "parameters": { "temperature": [0.82, 1.0], "humidity": [-1.0, -0.35], "continentalness": [0.28, 0.78], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.16 },
+        { "biome": "towersea:echo_sculk_spires", "parameters": { "temperature": [-0.35, 0.35], "humidity": [-0.15, 0.45], "continentalness": [0.62, 1.0], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.18 },
+        { "biome": "towersea:frostneedle_roost", "parameters": { "temperature": [-1.0, -0.45], "humidity": [0.35, 1.0], "continentalness": [-1.0, -0.7], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.18 },
+        { "biome": "towersea:saltstone_drift_arches", "parameters": { "temperature": [0.45, 1.0], "humidity": [-1.0, -0.45], "continentalness": [-0.82, -0.35], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.12 },
+        { "biome": "towersea:lantern_vine_orchard", "parameters": { "temperature": [0.55, 1.0], "humidity": [0.7, 1.0], "continentalness": [-0.1, 0.42], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.22 },
+        { "biome": "towersea:sporefall_mosswell", "parameters": { "temperature": [0.2, 0.75], "humidity": [0.75, 1.0], "continentalness": [0.35, 0.68], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.18 },
+        { "biome": "towersea:lapis_echo_hollow", "parameters": { "temperature": [-0.1, 0.65], "humidity": [-0.1, 0.6], "continentalness": [0.58, 1.0], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.14 },
+        { "biome": "towersea:glasswind_cloud_reef", "parameters": { "temperature": [-1.0, -0.35], "humidity": [-0.2, 0.8], "continentalness": [-1.0, -0.68], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.16 },
+        { "biome": "towersea:copper_sail_cliffs", "parameters": { "temperature": [0.1, 0.85], "humidity": [-0.65, 0.15], "continentalness": [-0.72, -0.2], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.14 },
+        { "biome": "towersea:windroot_shelf_woodland", "parameters": { "temperature": [0.35, 0.95], "humidity": [0.35, 0.88], "continentalness": [-0.2, 0.38], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.20 },
+        { "biome": "towersea:suncracked_wall_garden", "parameters": { "temperature": [0.7, 1.0], "humidity": [-0.75, -0.18], "continentalness": [0.05, 0.52], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.12 },
+        { "biome": "towersea:basalt_root_chasm", "parameters": { "temperature": [-0.4, 0.45], "humidity": [-0.35, 0.45], "continentalness": [0.55, 1.0], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.12 },
+        { "biome": "towersea:high_snow_spire", "parameters": { "temperature": [-1.0, -0.2], "humidity": [-1.0, 1.0], "continentalness": [-1.0, -0.55], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.0 },
+        { "biome": "towersea:pale_calcite_spire", "parameters": { "temperature": [-0.25, 0.85], "humidity": [-1.0, 1.0], "continentalness": [-1.0, -0.25], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.05 },
+        { "biome": "towersea:sky_garden_spire", "parameters": { "temperature": [0.15, 1.0], "humidity": [0.25, 1.0], "continentalness": [-0.85, -0.08], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.0 },
+        { "biome": "towersea:cloud_grassland", "parameters": { "temperature": [-0.1, 1.0], "humidity": [-1.0, 1.0], "continentalness": [-0.22, 0.35], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.18 },
+        { "biome": "towersea:mosslit_hanging_forest", "parameters": { "temperature": [0.28, 0.95], "humidity": [0.62, 1.0], "continentalness": [0.0, 0.45], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.24 },
+        { "biome": "towersea:moss_shaft", "parameters": { "temperature": [-0.25, 1.0], "humidity": [0.25, 1.0], "continentalness": [0.15, 0.62], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.0 },
+        { "biome": "towersea:sandstone_spire", "parameters": { "temperature": [0.42, 1.0], "humidity": [-1.0, -0.12], "continentalness": [-0.05, 0.55], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.0 },
+        { "biome": "towersea:deep_shaft", "parameters": { "temperature": [-1.0, 1.0], "humidity": [-1.0, 1.0], "continentalness": [0.62, 1.0], "erosion": [-1.0, 1.0], "depth": [-1.0, 1.0], "weirdness": [-1.0, 1.0] }, "offset": 0.0 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "dimension": "towersea:towersea",
+  "position": {
+    "x": 0,
+    "y": {
+      "max": -240
+    },
+    "z": 0
+  }
+}

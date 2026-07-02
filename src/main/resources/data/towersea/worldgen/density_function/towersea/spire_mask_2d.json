@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:shifted_noise",
+    "noise": "towersea:spire_mask",
+    "xz_scale": 0.72,
+    "y_scale": 0.0,
+    "shift_x": "minecraft:uniform",
+    "shift_y": 0,
+    "shift_z": "minecraft:uniform"
+  }
+}

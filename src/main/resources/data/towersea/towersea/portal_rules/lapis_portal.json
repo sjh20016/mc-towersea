@@ -1,0 +1,11 @@
+{
+  "id": "towersea:lapis_portal",
+  "frame_block_tag": "towersea:lapis_portal_frame",
+  "ignition_item_tag": "towersea:portal_ignition",
+  "portal_color": "blue",
+  "target_dimension": "towersea:towersea",
+  "cooldown_ticks": 60,
+  "prompt_text": "towersea.message.enter_towersea",
+  "sound_event": "minecraft:block.portal.trigger",
+  "particle_type": "minecraft:portal"
+}

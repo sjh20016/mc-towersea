@@ -1,0 +1,10 @@
+{
+  "id": "towersea:bridge",
+  "min_y": 70,
+  "max_y": 220,
+  "default_weight": 30,
+  "max_per_region": 6,
+  "allowed_biomes": [
+    "towersea:tower_sea"
+  ]
+}

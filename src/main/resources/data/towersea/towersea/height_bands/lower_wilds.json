@@ -1,0 +1,14 @@
+{
+  "id": "towersea:lower_wilds",
+  "min_y": -32,
+  "max_y": 80,
+  "fog_density": 0.4,
+  "allowed_structure_categories": [
+    "towersea:tower",
+    "towersea:ruin",
+    "towersea:dungeon"
+  ],
+  "resource_profile": "towersea:lower_resources",
+  "mob_profile": "towersea:lower_mobs",
+  "ambient_profile": "towersea:muffled_depths"
+}

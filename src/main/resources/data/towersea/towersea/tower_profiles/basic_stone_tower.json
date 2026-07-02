@@ -1,0 +1,20 @@
+{
+  "id": "towersea:basic_stone_tower",
+  "weight": 60,
+  "min_y": -32,
+  "max_y": 280,
+  "min_radius": 10,
+  "max_radius": 34,
+  "min_height": 70,
+  "max_height": 210,
+  "hollow_chance": 0.25,
+  "broken_chance": 0.15,
+  "cave_chance": 0.3,
+  "top_shape": "rounded",
+  "base_block_tag": "towersea:tower_stone",
+  "surface_block_tag": "towersea:tower_surface",
+  "allowed_height_bands": [
+    "towersea:lower_wilds",
+    "towersea:mid_tower_sea"
+  ]
+}

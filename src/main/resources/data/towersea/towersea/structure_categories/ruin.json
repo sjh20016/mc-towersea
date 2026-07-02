@@ -1,0 +1,10 @@
+{
+  "id": "towersea:ruin",
+  "min_y": 20,
+  "max_y": 260,
+  "default_weight": 25,
+  "max_per_region": 8,
+  "allowed_biomes": [
+    "towersea:tower_sea"
+  ]
+}

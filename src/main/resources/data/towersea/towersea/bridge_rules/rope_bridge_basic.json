@@ -1,0 +1,18 @@
+{
+  "id": "towersea:rope_bridge_basic",
+  "weight": 50,
+  "min_distance": 18,
+  "max_distance": 72,
+  "min_height_difference": 0,
+  "max_height_difference": 18,
+  "source_connector_tags": [
+    "towersea:bridge_start"
+  ],
+  "target_connector_tags": [
+    "towersea:bridge_end"
+  ],
+  "structure_pool": "towersea:bridges/basic",
+  "allow_rotation": true,
+  "allow_mirror": false,
+  "clearance_radius": 3
+}

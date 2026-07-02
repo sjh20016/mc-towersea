@@ -1,0 +1,20 @@
+{
+  "id": "towersea:needle_tower",
+  "weight": 45,
+  "min_y": 40,
+  "max_y": 300,
+  "min_radius": 4,
+  "max_radius": 10,
+  "min_height": 100,
+  "max_height": 280,
+  "hollow_chance": 0.1,
+  "broken_chance": 0.1,
+  "cave_chance": 0.1,
+  "top_shape": "spire",
+  "base_block_tag": "towersea:tower_stone",
+  "surface_block_tag": "towersea:tower_surface",
+  "allowed_height_bands": [
+    "towersea:mid_tower_sea",
+    "towersea:cloud_reaches"
+  ]
+}

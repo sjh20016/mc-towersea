@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "#minecraft:leaves",
+    "minecraft:vine",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:glow_lichen",
+    "minecraft:snow",
+    "#minecraft:tall_flowers",
+    "#minecraft:flowers",
+    "minecraft:grass",
+    "#minecraft:saplings",
+    "#minecraft:small_flowers"
+  ]
+}

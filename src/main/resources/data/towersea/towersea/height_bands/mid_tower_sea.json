@@ -1,0 +1,14 @@
+{
+  "id": "towersea:mid_tower_sea",
+  "min_y": 80,
+  "max_y": 180,
+  "fog_density": 0.2,
+  "allowed_structure_categories": [
+    "towersea:tower",
+    "towersea:bridge",
+    "towersea:village"
+  ],
+  "resource_profile": "towersea:mid_resources",
+  "mob_profile": "towersea:mid_mobs",
+  "ambient_profile": "towersea:windy_blue"
+}

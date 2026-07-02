@@ -1,0 +1,10 @@
+scoreboard objectives add ts_cloud_wing_time dummy
+scoreboard objectives add ts_anchor_time dummy
+scoreboard objectives add ts_anchor_cd dummy
+scoreboard objectives add ts_mirror_cd dummy
+scoreboard objectives add ts_fall_seal_time dummy
+scoreboard objectives add ts_windshaft_cd dummy
+scoreboard objectives add ts_marker_time dummy
+scoreboard objectives add ts_bridge_stage dummy
+scoreboard objectives add ts_common_clock dummy
+scoreboard objectives add ts_deaths dummy

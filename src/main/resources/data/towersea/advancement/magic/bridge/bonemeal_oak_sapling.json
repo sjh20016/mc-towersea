@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": { "item": "minecraft:bone_meal" },
+    "title": { "translate": "advancements.towersea.bridge.title" },
+    "description": { "translate": "advancements.towersea.bridge.description" },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "bonemeal_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "dimension": "towersea:towersea",
+          "block": { "blocks": ["minecraft:oak_sapling"] }
+        },
+        "item": { "item": "minecraft:bone_meal" }
+      }
+    }
+  },
+  "rewards": {
+    "function": "towersea:magic/bridge/detect_bonemeal"
+  }
+}

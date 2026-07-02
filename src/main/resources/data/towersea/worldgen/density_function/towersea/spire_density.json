@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:interpolated",
+        "argument": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "towersea:height_gate"
+          },
+          "argument2": {
+            "type": "minecraft:max",
+            "argument1": {
+              "type": "minecraft:interpolated",
+              "argument": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:interpolated",
+                  "argument": {
+                    "type": "minecraft:add",
+                    "argument1": 1.56,
+                    "argument2": {
+                      "type": "minecraft:flat_cache",
+                      "argument": {
+                        "type": "minecraft:shifted_noise",
+                        "noise": "towersea:spire_detail",
+                        "xz_scale": 0.5,
+                        "y_scale": 0.5,
+                        "shift_x": "minecraft:uniform",
+                        "shift_y": 0,
+                        "shift_z": "minecraft:uniform"
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:flat_cache",
+                  "argument": {
+                    "type": "minecraft:shifted_noise",
+                    "noise": "towersea:spire_hollow",
+                    "xz_scale": 0.5,
+                    "y_scale": 0.5,
+                    "shift_x": "minecraft:uniform",
+                    "shift_y": 0,
+                    "shift_z": "minecraft:uniform"
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:flat_cache",
+              "argument": {
+                "type": "minecraft:slide",
+                "argument": "towersea:coarse_spire_mask_2d"
+              }
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:max",
+          "argument1": {
+            "type": "minecraft:interpolated",
+            "argument": {
+              "type": "minecraft:add",
+              "argument1": 1.2,
+              "argument2": {
+                "type": "minecraft:flat_cache",
+                "argument": {
+                  "type": "minecraft:shifted_noise",
+                  "noise": "towersea:spire_detail",
+                  "xz_scale": 0.5,
+                  "y_scale": 0.5,
+                  "shift_x": "minecraft:uniform",
+                  "shift_y": 0,
+                  "shift_z": "minecraft:uniform"
+                }
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:flat_cache",
+            "argument": {
+              "type": "minecraft:slide",
+              "argument": "towersea:needle_spire_mask_2d"
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:interpolated",
+          "argument": {
+            "type": "minecraft:mul",
+            "argument1": -1.75,
+            "argument2": "towersea:spire_crack_hole"
+          }
+        },
+        "argument2": {
+          "type": "minecraft:interpolated",
+          "argument": {
+            "type": "minecraft:mul",
+            "argument1": -1.08,
+            "argument2": "towersea:air_lane_hole"
+          }
+        }
+      }
+    }
+  }
+}

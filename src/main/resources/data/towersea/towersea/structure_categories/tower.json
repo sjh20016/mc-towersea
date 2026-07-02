@@ -1,0 +1,10 @@
+{
+  "id": "towersea:tower",
+  "min_y": -32,
+  "max_y": 300,
+  "default_weight": 40,
+  "max_per_region": 12,
+  "allowed_biomes": [
+    "towersea:tower_sea"
+  ]
+}

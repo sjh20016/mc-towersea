@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:flat_cache",
+        "argument": {
+          "type": "minecraft:shifted_noise",
+          "noise": "towersea:spire_crack",
+          "xz_scale": 0.5,
+          "y_scale": 0.0,
+          "shift_x": "minecraft:uniform",
+          "shift_y": 0,
+          "shift_z": "minecraft:uniform"
+        }
+      },
+      "argument2": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -256,
+        "to_y": 1024,
+        "from_value": 0.0,
+        "to_value": 1.0
+      }
+    }
+  }
+}

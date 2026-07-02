@@ -1,0 +1,9 @@
+{
+  "fall_return_threshold": -240,
+  "fall_return_target": "minecraft:overworld",
+  "fall_protection_ticks": 400,
+  "grant_slow_falling": true,
+  "grant_feather_falling": false,
+  "spawn_platform_radius": 36,
+  "initial_area_size": 128
+}

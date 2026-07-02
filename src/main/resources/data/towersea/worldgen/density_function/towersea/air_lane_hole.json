@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:shifted_noise",
+            "noise": "towersea:air_lane",
+            "xz_scale": 0.34,
+            "y_scale": 0.0,
+            "shift_x": "minecraft:uniform",
+            "shift_y": 0,
+            "shift_z": "minecraft:uniform"
+          },
+          "argument2": 8.0
+        },
+        "argument2": 0.0
+      }
+    }
+  }
+}

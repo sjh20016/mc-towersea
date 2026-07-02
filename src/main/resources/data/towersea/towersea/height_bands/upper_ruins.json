@@ -1,0 +1,14 @@
+{
+  "id": "towersea:upper_ruins",
+  "min_y": 180,
+  "max_y": 260,
+  "fog_density": 0.15,
+  "allowed_structure_categories": [
+    "towersea:tower",
+    "towersea:ruin",
+    "towersea:bridge"
+  ],
+  "resource_profile": "towersea:upper_resources",
+  "mob_profile": "towersea:upper_mobs",
+  "ambient_profile": "towersea:thin_air"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "towersea:tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 12345678,
+    "spacing": 16,
+    "separation": 8
+  }
+}
