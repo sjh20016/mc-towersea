@@ -9,7 +9,8 @@
         "argument": {
           "type": "minecraft:add",
           "argument1": {
-            "type": "towersea:height_gate"
+            "type": "minecraft:reference",
+            "argument": "towersea:height_gate"
           },
           "argument2": {
             "type": "minecraft:max",
