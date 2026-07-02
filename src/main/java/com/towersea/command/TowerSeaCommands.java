@@ -90,10 +90,11 @@ public class TowerSeaCommands {
 
     private static int cmdReload(CommandContext<CommandSourceStack> ctx) {
         CommandSourceStack src = ctx.getSource();
-        // 委托给原版 /reload 命令，它会触发 AddReloadListenerEvent 重新加载 TowerSea 数据
+        // 委托给原版 /reload 命令触发 AddReloadListenerEvent
+        // 原版 reload 完成后会自行提示，不应在此提前报成功
         src.getServer().getCommands().performPrefixedCommand(
                 src.withPermission(4).withSuppressedOutput(), "reload");
-        src.sendSuccess(() -> Component.literal("[TowerSea] 配置已重新加载。"), true);
+        src.sendSuccess(() -> Component.literal("[TowerSea] 正在触发原版数据重载，请等待重载完成提示。"), true);
         return 1;
     }
 
